@@ -1,0 +1,26 @@
+@import "../tokens/tokens.css";
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--hb-ground);
+  color: var(--hb-text-primary);
+}
+
+.hb-surface {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 45%, var(--hb-ground) 0%, var(--hb-ground) 48%, var(--hb-vignette) 100%);
+}
+
+.hb-surface::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.11;
+  background-image: url("../assets/devices/grain.svg");
+  mix-blend-mode: screen;
+}
