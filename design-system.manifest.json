@@ -1,0 +1,29 @@
+{
+  "name": "Human Backstory Design System",
+  "version": "1.0.0",
+  "brand": "Human Backstory",
+  "status": "operational",
+  "sourceOfTruthOrder": [
+    "approved brand identity and approved reference visuals",
+    "tokens",
+    "CLAUDE_DESIGN.md",
+    "DESIGN_SYSTEM.md",
+    "BRAND_PRINCIPLES.md",
+    "PRODUCT_PATTERNS.md"
+  ],
+  "tokens": [
+    "tokens/colors.json",
+    "tokens/typography.json"
+  ],
+  "components": [
+    "components/FracturedO.jsx",
+    "components/EvidenceLabel.jsx",
+    "components/ThumbnailFrame.jsx"
+  ],
+  "styles": [
+    "styles/globals.css",
+    "styles/typography.css",
+    "styles/thumbnail.css"
+  ],
+  "canonRule": "Anything not explicitly supported by canon must be labeled PROVISIONAL / DESIGN SYSTEM EXTENSION."
+}
