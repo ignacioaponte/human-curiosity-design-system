@@ -1,0 +1,18 @@
+{
+  "humanBackstory": {
+    "typography": {
+      "display": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "Barlow Condensed",
+          "fontWeight": 900
+        },
+        "$description": "CANON — wordmark, thumbnail text, evidence labels and specified on-screen AI text. Uppercase in canon applications."
+      },
+      "body": {
+        "$value": null,
+        "$description": "UNSPECIFIED — no canon body font is defined. Any body font choice must be labeled PROVISIONAL."
+      }
+    }
+  }
+}
