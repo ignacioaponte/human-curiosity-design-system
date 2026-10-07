@@ -1,0 +1,13 @@
+:root {
+  /* HUMAN BACKSTORY — CANON */
+  --hb-ground: #0A0A0A;
+  --hb-vignette: #060606;
+  --hb-text-primary: #F2F2F3;
+  --hb-accent-red: #C0413F;
+
+  --hb-font-display: "Barlow Condensed", sans-serif;
+  --hb-font-display-weight: 900;
+
+  /* Intentionally no body font, grey ramp, spacing scale,
+     hover colors or motion timings: these are not canon. */
+}
