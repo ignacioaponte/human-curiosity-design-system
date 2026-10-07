@@ -1,0 +1,45 @@
+.hb-thumbnail {
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+  background: var(--hb-ground);
+  color: var(--hb-text-primary);
+}
+
+.hb-thumbnail.layout-a .copy {
+  position: absolute;
+  left: 6%;
+  top: 16%;
+  width: 40%;
+}
+
+.hb-thumbnail.layout-a .subject {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.18);
+}
+
+.hb-thumbnail.layout-b .copy {
+  position: absolute;
+  right: 6%;
+  top: 16%;
+  width: 40%;
+  text-align: left;
+}
+
+.hb-thumbnail.layout-b .subject {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.18);
+}
+
+/* Percentages are implementation aids, not canon token values. */
