@@ -1,0 +1,14 @@
+.hb-display {
+  font-family: var(--hb-font-display);
+  font-weight: var(--hb-font-display-weight);
+  text-transform: uppercase;
+  color: var(--hb-text-primary);
+}
+
+.hb-thumbnail-copy {
+  font-family: var(--hb-font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.88;
+  letter-spacing: -0.02em;
+}
