@@ -1,0 +1,19 @@
+{
+  "humanBackstory": {
+    "effects": {
+      "grain": {
+        "status": "CANON CONCEPT / UNSPECIFIED VALUE",
+        "description": "Fine grain is required as a global finishing layer, but exact opacity/noise values are not canon."
+      },
+      "vignette": {
+        "status": "CANON CONCEPT / UNSPECIFIED VALUE",
+        "color": "#060606",
+        "description": "Vignette is required; exact strength is not canon."
+      },
+      "motion": {
+        "status": "PROVISIONAL / DESIGN SYSTEM EXTENSION",
+        "description": "Restrained motion is canon in principle; exact timings and easing are not specified."
+      }
+    }
+  }
+}
