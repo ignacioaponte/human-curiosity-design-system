@@ -1,0 +1,27 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "humanBackstory": {
+    "color": {
+      "ground": {
+        "$value": "#0A0A0A",
+        "$type": "color",
+        "$description": "CANON — primary near-black ground"
+      },
+      "vignette": {
+        "$value": "#060606",
+        "$type": "color",
+        "$description": "CANON — vignette / deepest edge tone"
+      },
+      "textPrimary": {
+        "$value": "#F2F2F3",
+        "$type": "color",
+        "$description": "CANON — primary light typography"
+      },
+      "accentRed": {
+        "$value": "#C0413F",
+        "$type": "color",
+        "$description": "CANON — single structural accent representing fracture, wound, tension or uncomfortable truth"
+      }
+    }
+  }
+}
